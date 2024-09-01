@@ -53,7 +53,7 @@
   "authors": [],
   "hashAlgorithm": "blake2b-256",
   "body": {
-    "givenName": "Sebastien Guillemot",
+    "givenName": "Sebastien Guillemot セバ",
     "motivations": "I've dedicated over 6yrs of my life to Cardano and I want to help ensure its continued success\n\n6年以上にわたってCardanoに全力を注いできました。これからもその成功を支え続けたいです",
     "objectives": "Vet proposals based on technical soundness\n\n技術的な観点から提案の内容を評価します",
     "paymentAddress": "addr1qxdzj659w8zew3vm2nwu29tx3skdx4a7cv5ygyl5mykx0lwukcl75cytk4hqrfxvw0cj2x7eukmjfjstwud9atc0vzhqhx0ug3",
