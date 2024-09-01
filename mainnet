@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP100:IdentityReference",
+            "Link": "CIP100:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "givenName": "Sebastien Guillemot",
+    "motivations": "I've dedicated over 6yrs of my life to Cardano and I want to help ensure its continued success\n\n6年以上にわたってCardanoに全力を注いできました。これからもその成功を支え続けたいです",
+    "objectives": "Vet proposals based on technical soundness\n\n技術的な観点から提案の内容を評価します",
+    "paymentAddress": "addr1qxdzj659w8zew3vm2nwu29tx3skdx4a7cv5ygyl5mykx0lwukcl75cytk4hqrfxvw0cj2x7eukmjfjstwud9atc0vzhqhx0ug3",
+    "qualifications": "I've been professionally involved in Cardano since 2018 contributing to a lot initial infra including the first light wallet, the Cardano Rust SDK and many of the initial CIPs\n\nI've also had professional working experience with a lot of the latest research trends in crypto such as ZK, often bringing the lessons learned back to Cardano\n\n2018年から研究開発者としてCardanoに関わり、最初のライトウォレットやRust SDK、多くの初期のCIPなど、初期のインフラの構築に貢献してきました。\n\nその後、ZKなど暗号技術の最先端分野で実務経験を積み、その知識をCardanoに活かしています。",
+    "references": [
+      {
+        "@type": "Other",
+        "label": "Label",
+        "uri": "https://github.com/SebastienGllmt"
+      },
+      {
+        "@type": "Other",
+        "label": "Label",
+        "uri": "https://twitter.com/SebastienGllmt"
+      }
+    ]
+  }
+}
